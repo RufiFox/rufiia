@@ -27,10 +27,10 @@ logger = logging.getLogger("DiscordIA")
 logger.setLevel(logging.DEBUG)
 
 # Constantes et configurations
-GIPHY_API_KEY = "gGLUXfr0wBaaO2PHcqmCL9yhwETNsgQa"
+GIPHY_API_KEY = ""
 GIPHY_API_URL = "https://api.giphy.com/v1/gifs/search"
 NGINX_PROXY_URL = 'https://ia.rufi.fr/api/'
-SERPAPI_KEY = '175d1c63f9211c51d7757bafa36e538e44e3187606262ec422371282c2cc7441'
+SERPAPI_KEY = ''
 
 SUPPORTED_LANGUAGES = {
     'fr-FR': 'Français (France)',
